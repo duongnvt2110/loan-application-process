@@ -34,8 +34,9 @@
                 <div class="sidebar-heading">Dashboard</div>
                 <div class="list-group list-group-flush">
                     <a href="{{ route('home') }} " class="list-group-item list-group-item-action bg-light">Home</a>
-                    <a href="{{ route('customer.index') }} " class="list-group-item list-group-item-action bg-light">Customer</a>
-                    <a href="{{ route('analyst.index') }} " class="list-group-item list-group-item-action bg-light">Analyst</a>
+                    <a href="{{ route('role.index') }} " class="list-group-item list-group-item-action bg-light">Roles</a>
+                    <a href="{{ route('permission.index') }} " class="list-group-item list-group-item-action bg-light">Permissions</a>
+                    <a href="{{ route('user.index') }} " class="list-group-item list-group-item-action bg-light">Users</a>
                 </div>
             </div>
             @endif

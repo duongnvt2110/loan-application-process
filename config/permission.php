@@ -140,4 +140,12 @@ return [
 
         'store' => 'default',
     ],
+
+    'names' => [
+        'update_{{model}}',
+        'edit_{{model}}',
+        'index_{{model}}',
+        'delete_{{model}}',
+        'create_{{model}}',
+    ]
 ];
